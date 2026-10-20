@@ -1,0 +1,34 @@
+# Secrets / local config — never commit
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Adapter agent keys (use agents.json.example)
+agents.json
+**/agents.json
+!agents.json.example
+!**/agents.json.example
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local archives
+*.zip
+*.tar.gz
